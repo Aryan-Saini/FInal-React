@@ -11,7 +11,7 @@ export default function Header() {
   const onSearch = (e) => {
     e.preventDefault();
     history.push({
-      pathname: 'search',
+      pathname: '/search',
       search: `query=${filterInput}`
     });
   }
